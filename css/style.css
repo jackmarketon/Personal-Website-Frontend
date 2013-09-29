@@ -1,0 +1,301 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Expletus+Sans:400,700);
+/* The only files in here should be includes */
+/* Wordpress Config */
+/*  This file is for any CMS related styles that MUST be at the top of the stylesheet ex: Wordpress Themes */
+/* Compass Configs */
+/* line 17, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/* Susy or alternative grid engine here */
+/* Custom Imports */
+/* Grid Variables */
+/* Susy Settigns */
+/* Responsive Columns */
+/* Base Variables */
+/* EM Conversion function */
+/* Colors */
+/* Fonts */
+/* Backgrounds */
+/* line 1, ../scss/_nav.scss */
+nav.main--nav { width: 100%; display: block; position: relative; z-index: 2000; background: #404040 url("../images/backgrounds/dark/use_your_illusion.png"); -webkit-box-shadow: 0.625em 0 1.25em 0 #191919, -0.625em 0 1.25em #191919; -moz-box-shadow: 0.625em 0 1.25em 0 #191919, -0.625em 0 1.25em #191919; box-shadow: 0.625em 0 1.25em 0 #191919, -0.625em 0 1.25em #191919; overflow: hidden; *zoom: 1; }
+/* line 10, ../scss/_nav.scss */
+nav.main--nav .logo-wrap { display: block; float: left; }
+/* line 13, ../scss/_nav.scss */
+nav.main--nav .logo-wrap .logo a { display: block; padding: 0.625em; }
+/* line 16, ../scss/_nav.scss */
+nav.main--nav .logo-wrap .logo a img { display: block; }
+/* line 22, ../scss/_nav.scss */
+nav.main--nav .menu-button { display: none; float: right; }
+/* line 25, ../scss/_nav.scss */
+nav.main--nav .menu-button .button-wrapper a { display: block; padding: 0.625em; margin: 0.625em; cursor: pointer; position: relative; margin-right: 1.875em; }
+/* line 32, ../scss/_nav.scss */
+nav.main--nav .menu-button .button-wrapper a:after { content: "\2261"; font-size: 2em; position: absolute; top: 0.3125em; right: -0.625em; }
+/* line 38, ../scss/_nav.scss */
+nav.main--nav .menu-button .button-wrapper a:hover { color: lime; }
+/* line 41, ../scss/_nav.scss */
+nav.main--nav .menu-button .button-wrapper a.active { color: #007fff; }
+/* line 47, ../scss/_nav.scss */
+nav.main--nav ul { clear: both; width: 100%; display: block; border-top: 1px solid gray; }
+/* line 52, ../scss/_nav.scss */
+nav.main--nav ul li { width: 100%; display: block; border-top: 1px solid #191919; border-bottom: 1px solid gray; }
+/* line 56, ../scss/_nav.scss */
+nav.main--nav ul li a { width: 100%; border: 0; background: #404040 url("../images/backgrounds/dark/use_your_illusion.png"); display: block; text-align: left; border-left: 0px solid transparent; -webkit-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; -moz-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; -o-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; transition: border 0.3s ease-in-out, color 0.7s ease-in-out; }
+/* line 65, ../scss/_nav.scss */
+nav.main--nav ul li a:hover { border-left: 0.3125em solid lime; background: #303030 url("../images/backgrounds/dark/use_your_illusion.png"); -webkit-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; -moz-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; -o-transition: border 0.3s ease-in-out, color 0.7s ease-in-out; transition: border 0.3s ease-in-out, color 0.7s ease-in-out; }
+/* line 73, ../scss/_nav.scss */
+nav.main--nav ul li a.active { border-left: 0.3125em solid #007fff; }
+@media (min-width: 50em) { /* line 82, ../scss/_nav.scss */
+  nav.main--nav .logo-wrap .logo a { padding: 0; }
+  /* line 85, ../scss/_nav.scss */
+  nav.main--nav ul { width: auto; float: right; clear: right; border-top: none; border-left: 1px solid gray; }
+  /* line 91, ../scss/_nav.scss */
+  nav.main--nav ul li { width: auto; float: left; border-top: none; border-bottom: none; border-left: 1px solid #191919; border-right: 1px solid gray; }
+  /* line 98, ../scss/_nav.scss */
+  nav.main--nav ul li a { width: auto; border-top: 0.3125em solid transparent; }
+  /* line 101, ../scss/_nav.scss */
+  nav.main--nav ul li a:hover { border-top: 0.3125em solid lime; border-left: none; }
+  /* line 105, ../scss/_nav.scss */
+  nav.main--nav ul li a.active { border-top: 0.3125em solid #007fff; border-left: none; }
+  /* line 112, ../scss/_nav.scss */
+  nav.main--nav .nav--wrap { max-width: 59em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; }
+  /* line 38, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  nav.main--nav .nav--wrap:after { content: ""; display: table; clear: both; } }
+
+/* Set fonts in _config */
+/*
+	$header-font
+	$body-font
+	$mono-font
+	$alt-font
+*/
+/* line 61, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html { font-size: 100%; }
+
+/* line 64, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html { font-size: 16px; line-height: 0.375em; }
+
+/* line 11, ../scss/_typo.scss */
+html { line-height: 1.5em; font-family: "Noto Sans", Arial, sans-serif; }
+
+/* line 16, ../scss/_typo.scss */
+h1, h2, h3, h4, h5, h6 { font-family: "Expletus Sans", Arial, sans-serif; }
+
+/* line 19, ../scss/_typo.scss */
+h1 { font-size: 3.6405em; line-height: 1.13309em; margin-top: 0.41203em; padding-top: 0.41203em; padding-bottom: 0.30902em; margin-bottom: 0.20602em; }
+
+/* line 24, ../scss/_typo.scss */
+h2 { font-size: 3.236em; line-height: 1.15884em; margin-top: 0.46354em; padding-top: 0.46354em; padding-bottom: 0.34765em; margin-bottom: 0.11588em; }
+
+/* line 29, ../scss/_typo.scss */
+h3 { font-size: 2.8315em; line-height: 1.19195em; margin-top: 0.52975em; padding-top: 0.26488em; padding-bottom: 0.13244em; margin-bottom: 0.26488em; }
+
+/* line 34, ../scss/_typo.scss */
+h4 { font-size: 2.427em; line-height: 1.23609em; margin-top: 0.46354em; padding-top: 0.46354em; padding-bottom: 0.15451em; margin-bottom: 0.30902em; }
+
+/* line 39, ../scss/_typo.scss */
+h5 { font-size: 2.0225em; line-height: 1.2979em; margin-top: 0.37083em; padding-top: 0.37083em; padding-bottom: 0.18541em; margin-bottom: 0.37083em; }
+
+/* line 44, ../scss/_typo.scss */
+h6 { font-size: 1.618em; line-height: 1.15884em; margin-top: 0.23177em; padding-top: 0.23177em; padding-bottom: 0em; margin-bottom: 0.23177em; }
+
+/* line 50, ../scss/_typo.scss */
+p { font-family: "Noto Sans", Arial, sans-serif; margin-top: 0.375em; padding-top: 0.375em; padding-bottom: 0.375em; margin-bottom: 0.375em; }
+/* line 53, ../scss/_typo.scss */
+p:first-of-type { text-indent: 2em; }
+
+/* line 57, ../scss/_typo.scss */
+ul, ol, blockquote, small { font-family: "Noto Sans", Arial, sans-serif; margin-top: 0.375em; padding-top: 0.375em; padding-bottom: 0.375em; margin-bottom: 0.375em; }
+
+/* line 61, ../scss/_typo.scss */
+ul { list-style: disc inside; }
+
+/* line 62, ../scss/_typo.scss */
+ol { list-style: decimal inside; }
+
+/* line 63, ../scss/_typo.scss */
+li { font-family: "Noto Sans", Arial, sans-serif; margin-top: 0.375em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0.375em; }
+/* line 66, ../scss/_typo.scss */
+li p:first-of-type { text-indent: 0; }
+
+/* line 68, ../scss/_typo.scss */
+strong, b { font-weight: bold; }
+
+/* line 69, ../scss/_typo.scss */
+em, i { font-style: italic; }
+
+/* line 71, ../scss/_typo.scss */
+blockquote { border: 1px solid #e5e5e5; width: 75%; color: #191919; background: #bfbfbf url("../images/backgrounds/light/subtle_grunge.png"); -webkit-box-shadow: 0 0 0.625em 0 #191919 inset; -moz-box-shadow: 0 0 0.625em 0 #191919 inset; box-shadow: 0 0 0.625em 0 #191919 inset; font-size: 0.875em; line-height: 1.28571em; margin: 2em auto; padding: 1.28571em 1.28571em; }
+
+/* line 81, ../scss/_typo.scss */
+code { counter-reset: line; background: #191919; font-size: 0.875em; line-height: 1.28571em; }
+/* line 85, ../scss/_typo.scss */
+code ol { margin: 0 auto; width: 90%; padding: 0; border: 1px solid #e5e5e5; -webkit-box-shadow: 0 0 0.625em 0 #191919; -moz-box-shadow: 0 0 0.625em 0 #191919; box-shadow: 0 0 0.625em 0 #191919; margin-top: 2.25em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 2.25em; }
+/* line 90, ../scss/_typo.scss */
+code ol li { list-style: none; margin: 0 0 0 2em; padding: .25em 1em .25em 1em; position: relative; font-family: DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New; color: #e5e5e5; }
+/* line 97, ../scss/_typo.scss */
+code ol li:nth-child(odd) { background: #404040; }
+/* line 100, ../scss/_typo.scss */
+code ol li:nth-child(even) { background: #5c5c5c; }
+/* line 103, ../scss/_typo.scss */
+code ol li:before { counter-increment: line; border-right: 1px solid #e5e5e5; padding: 0 0 0 .25em; line-height: 1.75em; content: counters(line, ".") "."; background: #191919; height: 100%; width: 2em; top: 0; left: -2em; position: absolute; }
+
+/* line 116, ../scss/_typo.scss */
+small { font-size: 0.75em; line-height: 0.4em; }
+
+/* Custom Typo */
+/* line 124, ../scss/_typo.scss */
+nav.main--nav ul { margin: 0; padding: 0; }
+/* line 126, ../scss/_typo.scss */
+nav.main--nav ul li { margin: 0; padding: 0; }
+/* line 132, ../scss/_typo.scss */
+nav.main--nav .menu-button .button-wrapper a { font-family: "Expletus Sans", Arial, sans-serif; text-transform: uppercase; font-size: 1.2em; color: #e5e5e5; -webkit-transition: color 0.5s ease-in-out; -moz-transition: color 0.5s ease-in-out; -o-transition: color 0.5s ease-in-out; transition: color 0.5s ease-in-out; }
+/* line 137, ../scss/_typo.scss */
+nav.main--nav .menu-button .button-wrapper a:hover { color: lime; -webkit-transition: color 0.5s ease-in-out; -moz-transition: color 0.5s ease-in-out; -o-transition: color 0.5s ease-in-out; transition: color 0.5s ease-in-out; }
+/* line 144, ../scss/_typo.scss */
+nav.main--nav a { color: #e5e5e5; padding: 0.625em; text-decoration: none; text-transform: uppercase; font-family: "Expletus Sans", Arial, sans-serif; letter-spacing: 0.0625em; font-size: 1em; line-height: 1.5em; }
+/* line 154, ../scss/_typo.scss */
+nav.main--nav a:hover { color: lime; }
+/* line 157, ../scss/_typo.scss */
+nav.main--nav a.active { color: #007fff; }
+
+/* line 163, ../scss/_typo.scss */
+a.meta--box { margin-top: 1.5em; margin-bottom: 1.5em; }
+/* line 166, ../scss/_typo.scss */
+a.meta--box span { padding: 0.5em 0.3125em 0.33333em; font: "Expletus Sans", Arial, sans-serif; text-decoration: none; color: lime; text-transform: uppercase; font-family: "Expletus Sans", Arial, sans-serif; font-size: 1em; line-height: 1.5em; }
+/* line 176, ../scss/_typo.scss */
+a.meta--box:hover span { color: #007fff; }
+
+/* line 182, ../scss/_typo.scss */
+footer { padding-top: 1.5em; padding-bottom: 1.5em; }
+/* line 185, ../scss/_typo.scss */
+footer .footer--box { padding: 0.75em; font-size: 0.8125em; line-height: 1.38462em; }
+/* line 188, ../scss/_typo.scss */
+footer .footer--box h5 { text-align: center; border-bottom: 1px solid gray; margin-top: 0.46154em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0.23077em; }
+/* line 193, ../scss/_typo.scss */
+footer .footer--box h6 { margin-top: 0.46154em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; }
+/* line 196, ../scss/_typo.scss */
+footer .footer--box p { margin-top: 0.23077em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0.23077em; }
+/* line 198, ../scss/_typo.scss */
+footer .footer--box p:first-of-type { text-indent: 0; }
+/* line 202, ../scss/_typo.scss */
+footer .footer--box ul { margin-top: 0.23077em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0.46154em; list-style: none; }
+
+/* line 1, ../scss/_main.scss */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 3, ../scss/_main.scss */
+body { background: #bfbfbf url("../images/backgrounds/light/shattered.png"); }
+
+/* line 7, ../scss/_main.scss */
+.wrap { width: 100%; *zoom: 1; max-width: 19em; _width: 19em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; }
+/* line 38, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.wrap:after { content: ""; display: table; clear: both; }
+
+/* line 12, ../scss/_main.scss */
+header { width: 100%; }
+/* line 14, ../scss/_main.scss */
+header .hero { width: 100%; overflow: hidden; height: 12.5em; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #007fff), color-stop(100%, #e5e5e5)); background-image: -webkit-linear-gradient(#007fff, #e5e5e5); background-image: -moz-linear-gradient(#007fff, #e5e5e5); background-image: -o-linear-gradient(#007fff, #e5e5e5); background-image: linear-gradient(#007fff, #e5e5e5); border-bottom: 0.125em solid gray; }
+/* line 20, ../scss/_main.scss */
+header .hero img { display: block; }
+
+/* line 27, ../scss/_main.scss */
+section { width: 100%; }
+/* line 29, ../scss/_main.scss */
+section a.meta--box { width: 100%; display: block; position: relative; }
+/* line 32, ../scss/_main.scss */
+section a.meta--box img { top: 0; left: 0; width: 100%; display: block; position: relative; z-index: 1000; }
+/* line 38, ../scss/_main.scss */
+section a.meta--box span { bottom: 0; left: 0; width: 100%; display: block; position: absolute; z-index: 1500; background: #404040 url("../images/backgrounds/dark/use_your_illusion.png"); border-left: 0.3125em solid lime; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
+/* line 47, ../scss/_main.scss */
+section a.meta--box:hover span { background: #303030 url("../images/backgrounds/dark/use_your_illusion.png"); border-left: 0.3125em solid #007fff; }
+
+/* line 55, ../scss/_main.scss */
+footer { background: gray url("../images/backgrounds/dark/use_your_illusion.png"); }
+/* line 57, ../scss/_main.scss */
+footer .footer--box { width: 100%; background: #bfbfbf url("../images/backgrounds/light/subtle_grunge.png"); }
+/* line 60, ../scss/_main.scss */
+footer .footer--box:last-child { margin-bottom: 0; }
+/* line 63, ../scss/_main.scss */
+footer .footer--box:first-child { margin-top: 0; }
+
+@media (min-width: 50em) { /* line 70, ../scss/_main.scss */
+  .wrap { max-width: 59em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; }
+  /* line 38, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .wrap:after { content: ""; display: table; clear: both; }
+  /* line 73, ../scss/_main.scss */
+  section { width: 100%; }
+  /* line 75, ../scss/_main.scss */
+  section a.meta--box { width: 32.20339%; float: left; margin-right: 1.69492%; margin-right: -100%; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  section a.meta--box:nth-child(3n + 1) { margin-left: 0%; clear: left; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  section a.meta--box:nth-child(3n + 2) { margin-left: 33.89831%; clear: none; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  section a.meta--box:nth-child(3n + 3) { margin-left: 67.79661%; clear: none; }
+  /* line 80, ../scss/_main.scss */
+  footer .footer--box { border: 1px solid #e5e5e5; -webkit-box-shadow: 0 0 0.625em 0 #191919 inset; -moz-box-shadow: 0 0 0.625em 0 #191919 inset; box-shadow: 0 0 0.625em 0 #191919 inset; width: 32.20339%; float: left; margin-right: 1.69492%; margin-right: -100%; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  footer .footer--box:nth-child(3n + 1) { margin-left: 0%; clear: left; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  footer .footer--box:nth-child(3n + 2) { margin-left: 33.89831%; clear: none; }
+  /* line 42, ../scss/susy/_isolation.scss */
+  footer .footer--box:nth-child(3n + 3) { margin-left: 67.79661%; clear: none; } }
+/* Fix for Android */
+/* line 2, ../scss/_bugfix.scss */
+body { -webkit-animation: bugfix infinite 1s; }
+
+@-webkit-keyframes bugfix { /* line 6, ../scss/_bugfix.scss */
+  from { padding: 0; }
+  /* line 7, ../scss/_bugfix.scss */
+  to { padding: 0; } }
+
+/* Dev Only */
+/* line 23, ../scss/style.scss */
+.primary, .secondary, .tertiary, .white, .gray1, .gray2, .gray3, .black { width: 100%; height: 100px; }
+
+/* line 26, ../scss/style.scss */
+.primary { background: lime; }
+
+/* line 29, ../scss/style.scss */
+.secondary { background: #007fff; }
+
+/* line 32, ../scss/style.scss */
+.tertiary { background: magenta; }
+
+/* line 35, ../scss/style.scss */
+.white { background: #e5e5e5; }
+
+/* line 38, ../scss/style.scss */
+.gray1 { background: #bfbfbf; }
+
+/* line 41, ../scss/style.scss */
+.gray2 { background: gray; }
+
+/* line 44, ../scss/style.scss */
+.gray3 { background: #404040; }
+
+/* line 47, ../scss/style.scss */
+.black { background: #191919; }
